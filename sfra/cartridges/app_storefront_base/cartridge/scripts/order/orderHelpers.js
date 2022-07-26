@@ -34,8 +34,8 @@ function getOrders(currentCustomer, querystring, locale) {
         {
             displayValue: Resource.msg('orderhistory.twelvemonths.option', 'order', null),
             optionValue: URLUtils.url('Order-Filtered', 'orderFilter', '12').abs().toString()
-        }   
-    ]; 
+        }
+    ];
     var orderYear;
     var years = [];
     var customerOrder;
