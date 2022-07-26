@@ -7,7 +7,6 @@ var URLUtils = require('dw/web/URLUtils');
 var Locale = require('dw/util/Locale');
 
 var OrderModel = require('*/cartridge/models/order');
-var OrderModel2 = require('*/cartridge/models/order');
 
 /**
 * Returns a list of orders for the current customer
