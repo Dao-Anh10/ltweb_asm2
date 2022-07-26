@@ -22,7 +22,7 @@ function getOrders(currentCustomer, querystring, locale) {
     var customerOrders = orderHistory.getOrders(
         'status!={0}',  
         'creationDate desc',
-        Order.ORDER_STATUS_REPLACED
+        Order.ORDER_STATUS_REPLACED  
     );
 
     var orders = [];
