@@ -20,7 +20,7 @@ function getOrders(currentCustomer, querystring, locale) {
     // get all orders for this user
     var orderHistory = currentCustomer.raw.getOrderHistory();
     var customerOrders = orderHistory.getOrders(
-        'status!={0}',
+        'status!={0}',  
         'creationDate desc',
         Order.ORDER_STATUS_REPLACED
     );
