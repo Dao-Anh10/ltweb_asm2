@@ -14,7 +14,7 @@ var OrderModel2 = require('*/cartridge/models/order');
 * @param {Object} currentCustomer - object with customer properties
 * @param {Object} querystring - querystring properties
 * @param {string} locale - the current request's locale id
-* @returns {Object} - orderModel of the current dw order object
+* @returns {Object} - orderModel of the current dw order object  
 * */
 function getOrders(currentCustomer, querystring, locale) {
     // get all orders for this user
